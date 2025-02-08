@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        pretendard: ["Pretendard", "sans-serif"], // Pretendard를 기본 폰트로 설정
+      },
     },
   },
   plugins: [],

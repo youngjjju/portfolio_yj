@@ -21,7 +21,8 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  /* 이 부분을 유틸리티 클래스에 맞게 수정 */
+  .text-shadow {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
