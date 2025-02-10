@@ -15,9 +15,8 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/npm/@fontsource/pretendard/css/pretendard.css"
         />
       </head>
-      <body className="bg-[rgb(255,255,255)] font-pretendard">
+      <body className="bg-[rgb(255,255,255)] font- font-pretendard">
         {/* 전체에 Pretendard 폰트 적용 */}
-        <Header />
         {children}
       </body>
     </html>
