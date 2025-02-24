@@ -1,4 +1,3 @@
-// layout.tsx
 import Header from "@/components/header";
 import "./globals.css";
 
@@ -17,13 +16,16 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans+KR&family=Outfit:wght@100..900&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body>
-        <Header />
-        {children}
+
+      <body className="w-full flex flex-col items-center h-auto">
+        <div className="w-full flex flex-col items-center">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );
