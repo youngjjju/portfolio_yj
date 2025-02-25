@@ -13,14 +13,14 @@ const config: Config = {
         desktop: "1440px",
       },
       backgroundColor: {
-        primary: "#000046",
-        second: "#b6b6df",
-        third: "#f0f0f0",
+        primary: "#3D2C1E", // 딥 브라운 (배경)
+        second: "#7F6A52", // 자연스러운 브라운 (포인트)
+        third: "#2A1E18",
       },
       textColor: {
-        primary: "#000046",
-        second: "#b6b6df",
-        third: "#f0f0f0",
+        primary: "#3D2C1E", // 딥 브라운 (배경)
+        second: "#7F6A52", // 자연스러운 브라운 (포인트)
+        third: "#2A1E18",
       },
       colors: {
         primary: {
