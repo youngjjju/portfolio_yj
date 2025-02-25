@@ -2,7 +2,7 @@ import { Mail, MessageCircleCodeIcon } from "lucide-react";
 
 export default function Footer() {
   return (
-    <div className=" w-full text-white gap-12 flex justify-end items-center absolute bottom-0 max-lg:hidden  h-[100px] z-20 bg-third">
+    <div className=" w-full text-white gap-12 flex justify-end items-center absolute bottom-0 max-lg:hidden  h-[100px] z-20 bg-primary">
       <div className=" absolute leading-6 left-5 text-lg font-extralight">
         Sungkyunkwan University,
         <br />

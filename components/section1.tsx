@@ -12,18 +12,18 @@ export default function Section1() {
           width={512}
           height={642}
         />
-        <div className="p-5 pt-[18px] flex gap-2 px-6 bottom-0 absolute w-full h-[80px] bg-white ">
+        <div className="p-5 pt-[18px]  flex gap-2 px-6 bottom-0 absolute w-full h-[80px] bg-white ">
           <Heart size={40} />
           <MessageCircle className="transform scale-x-[-1]" size={40} />
           <Send size={40} />
         </div>
       </div>
       <div className="flex flex-col gap-8 ">
-        <p className="text-third min-[1070px]:text-6xl leading-[4rem] tracking-wide text-[52px] font-semibold">
-          안녕하세요
-          <br /> 개발자가 되고픈
-          <br /> 김영주입니다.
-        </p>
+        <div className="text-third  min-[1070px]:text-6xl  tracking-wide text-[50px] font-semibold">
+          <div className="min-[1070px]:mb-3">안녕하세요</div>
+          <div className="min-[1070px]:mb-3">개발자가 되고픈</div>
+          <div>김영주입니다</div>
+        </div>
         <p className="text-black text-2xl font-semibold ">
           부족한 제 포트폴리오에
           <br /> 관심가져 주셔서 감사합니다
@@ -34,13 +34,15 @@ export default function Section1() {
             Github
           </button>
         </div>
-        <p className="w-[400px] xl:w-[500px] text-[#333333] text-lg z-10 font-semibold">
-          늦은 나이에 성균관대에 입학하여 3학년이 되기까지 진로에 대한 고민이
-          많았습니다. 프로그래머가 되야겠다고 결정하기까지 제가 거쳐왔던 과정을
-          소개하도록 하겠습니다. 아직 많이 부족하지만, 노력하는 모습에
-          주목해주세요!
-          <br />이 포트폴리오 웹사이트는 제가 괜찮은 개발자가 되었다고 자부할 수
-          있을 때까지 계속해서 업데이트할 예정입니다. 가끔씩 들러주세요! 🌈
+        <p className="w-[420px] xl:w-[500px] text-third text-lg z-10 font-semibold">
+          늦은 나이에 성균관대에 입학하여 3학년이 되기까지 <br /> 진로에 대한
+          고민이 많았습니다. 프로그래머가 되야겠다고
+          <br /> 결정하기까지 제가 거쳐왔던 과정을 소개하도록 하겠습니다.
+          <br /> 아직 많이 부족하지만, 노력하는 모습에 주목해주세요!
+          <br />이 포트폴리오 웹사이트는 제가 괜찮은 개발자가 되었다고 <br />
+          자부할 수 있을 때까지 계속해서 업데이트할 예정입니다.
+          <br />
+          가끔씩 들러주세요! 🌈
         </p>
       </div>
       <div className="hidden xl:w-[100px]" />
