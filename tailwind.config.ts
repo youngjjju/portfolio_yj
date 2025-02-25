@@ -13,7 +13,12 @@ const config: Config = {
         desktop: "1440px",
       },
       backgroundColor: {
-        primary: "#31316a",
+        primary: "#000046",
+        second: "#b6b6df",
+        third: "#f0f0f0",
+      },
+      textColor: {
+        primary: "#000046",
         second: "#b6b6df",
         third: "#f0f0f0",
       },
