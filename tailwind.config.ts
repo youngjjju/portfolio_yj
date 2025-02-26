@@ -16,11 +16,19 @@ const config: Config = {
         primary: "#3D2C1E", // 딥 브라운 (배경)
         second: "#7F6A52", // 자연스러운 브라운 (포인트)
         third: "#2A1E18",
+        fourth: "#5F6D42",
+        fifth: "#EDE0D4",
+        sixth: "#622234",
+        seventh: "#1C2833",
       },
       textColor: {
         primary: "#3D2C1E", // 딥 브라운 (배경)
         second: "#7F6A52", // 자연스러운 브라운 (포인트)
         third: "#2A1E18",
+        fourth: "#5F6D42",
+        fifth: "#EDE0D4",
+        sixth: "#622234",
+        seventh: "#1C2833",
       },
       colors: {
         primary: {

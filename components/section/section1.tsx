@@ -29,7 +29,7 @@ export default function Section1() {
           <br /> 관심가져 주셔서 감사합니다
         </p>
         <div className="flex  ">
-          <button className="w-28 flex justify-center gap-2 items-center rounded-3xl bg-white ring-black ring-2 shadow-sm text-primary h-8">
+          <button className="w-28 hoverScale flex justify-center gap-2 items-center rounded-3xl bg-white ring-black ring-2 shadow-sm text-primary h-8">
             <Github />
             Github
           </button>
@@ -46,7 +46,8 @@ export default function Section1() {
         </p>
       </div>
       <div className="hidden xl:w-[100px]" />
-      <div className="absolute flex justify-center items-center bg-second   right-12 top-0 blur-sm shadow-2xl w-10 h-[1000px] rotate-[35deg]"></div>
+      {/* <div className="absolute flex justify-center items-center bg-second   right-12 top-0 blur-sm shadow-2xl w-10 h-[1000px] rotate-[35deg]"></div>
+       */}
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export const projectNameObject = {
   logicCircuitProject: {
@@ -32,24 +31,21 @@ interface ProjectCardProps {
 export default function ProjectCard({ projectName }: ProjectCardProps) {
   const project = projectNameObject[projectName];
   return (
-    <Link
-      href={`/project/${projectName}`}
-      className="w-full mt-10 h-[300px] flex-col gap-5 text-black flex justify-center items-center"
-    >
+    <div className="w-full mt-10 h-[300px] flex-col gap-5 text-black flex justify-center items-center">
       <div className="w-full h-5 flex justify-center md:justify-start text-third font-semibold">
         {project.semester}
       </div>
       <Image
-        className="w-44 h-56 object-cover"
+        className="w-44 h-56 hoverScale object-cover"
         width={150}
         height={200}
         alt={project.name}
         src={project.img}
       />
-      <div className="w-2/3 text-md font-medium text-center">
+      <div className="w-2/3 hover:underline-offset-4 hover:underline text-md font-medium text-center">
         {" "}
         {project.name}
       </div>
-    </Link>
+    </div>
   );
 }

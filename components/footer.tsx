@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="flex items-center flex-col">
         <div className="flex items-center gap-2">
           <Mail size={20} />
-          <span>Email</span>
+          <span>Email {`(포트폴리오 피드백 환영)`}</span>
         </div>
         <span className="font-extralight">2000dudwn@naver.com</span>
       </div>

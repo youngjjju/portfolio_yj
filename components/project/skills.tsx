@@ -1,14 +1,10 @@
 import Image from "next/image";
+import Chapter from "../chapter";
 
 export default function Skills() {
   return (
     <>
-      <div className="flex gap-7 w-full h-10 items-center justify-center">
-        <span className="sm:text-xl text-lg font-semibold text-third">
-          다뤄본 스택들
-        </span>
-        <div className="w-1/2 sm:w-7/12  h-1 bg-second"></div>
-      </div>
+      <Chapter title="다뤄본 스택들" />
       <div className="mt-16 mb-32 w-full gap-10 max-lg:flex-col flex items-center justify-center">
         <Image
           src="/stacks.png"
