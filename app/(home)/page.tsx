@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="section2" className="w-full h-[1000px]">
+      <section id="section2" className="w-full h-[770px]">
         <Section2 />
       </section>
 

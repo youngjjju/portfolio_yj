@@ -1,5 +1,6 @@
 import { Github, Heart, MessageCircle, Send } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Section1() {
   return (
@@ -29,10 +30,13 @@ export default function Section1() {
           <br /> 관심가져 주셔서 감사합니다
         </p>
         <div className="flex  ">
-          <button className="w-28 hoverScale flex justify-center gap-2 items-center rounded-3xl bg-white ring-black ring-2 shadow-sm text-primary h-8">
+          <Link
+            href={"https://github.com/youngjjju"}
+            className="w-28 hoverScale flex justify-center gap-2 items-center rounded-3xl bg-white ring-black ring-2 shadow-sm text-primary h-8"
+          >
             <Github />
             Github
-          </button>
+          </Link>
         </div>
         <p className="w-[420px] xl:w-[500px] text-third text-lg z-10 font-semibold">
           늦은 나이에 성균관대에 입학하여 3학년이 되기까지 <br /> 진로에 대한
