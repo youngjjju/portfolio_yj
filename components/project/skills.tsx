@@ -4,7 +4,7 @@ import Chapter from "../chapter";
 export default function Skills() {
   return (
     <>
-      <Chapter title="다뤄본 스택들" />
+      <Chapter title="다뤄본 스택들" className="mt-[6.5%] mb-[2%]" />
       <div className="mt-16 mb-32 w-full gap-10 max-lg:flex-col flex items-center justify-center">
         <Image
           src="/stacks.png"

@@ -13,7 +13,7 @@ export default function Chapter({ title, className }: ChapterProps) {
       <span className="sm:text-3xl text-lg font-semibold text-third">
         {title}
       </span>
-      <div className="w-1/2 sm:w-7/12 h-1 bg-second"></div>
+      <div className="w-1/2 sm:w-2/3 h-1 bg-second"></div>
     </div>
   );
 }

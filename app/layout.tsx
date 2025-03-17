@@ -21,7 +21,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="w-full flex flex-col  items-center h-auto">
+      <body className="w-full flex flex-col relative items-center h-auto">
         <div className="w-full flex flex-col items-center">
           <Header />
           {children}

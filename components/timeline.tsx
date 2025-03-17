@@ -1,7 +1,7 @@
 // 머리 굴리기 힘들어서 코드 더럽...
 export default function TimeLine() {
   return (
-    <div className="w-full mb-32 *:font-light justify-center flex flex-col mt-16 gap-5 items-center h-auto ">
+    <div className="w-[70%] bg-fifth opacity-90 rounded-3xl pt-2 pb-12 mb-32 *:font-light justify-center flex flex-col mt-16 gap-5 items-center h-auto ">
       <div className="w-[90%] h-auto flex flex-col gap-5">
         <div className="w-full h-auto flex flex-col items-end  *:bg-fourth *:timeLineBlock">
           <div className="w-[10%] mr-[30%] h-10  ">

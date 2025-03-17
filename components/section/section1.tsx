@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Section1() {
   return (
-    <div className=" hidden overflow-hidden w-full relative h-[760px] lg:gap-16 xl:gap-32 lg:flex justify-center items-center">
+    <div className=" hidden overflow-hidden w-full relative  h-full lg:gap-16 xl:gap-32 lg:flex justify-center items-center">
       <div className="relative  shadow-lg overflow-hidden w-[512px] h-[642px] rounded-2xl ">
         <Image
           className="absolute bottom-12"
-          src="/image.png"
+          src="/main.png"
           alt="main"
           width={512}
           height={642}

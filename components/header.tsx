@@ -15,7 +15,7 @@ export default function Header() {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <nav className=" fixed  z-50 px-3 min-[880px]:px-12 flex items-center justify-between md:justify-evenly w-full bg-white h-[80px]">
+    <nav className=" fixed shadow-sm  z-50 px-3 min-[880px]:px-12 flex items-center justify-between md:justify-evenly w-full bg-white h-[70px]">
       <Link
         href={"/"}
         className="mr-8 xl:mr-40 flex items-center h-full text-third text-3xl min-[1090px]:text-4xl font-semibold"
