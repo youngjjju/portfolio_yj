@@ -26,7 +26,7 @@ export default function Section1() {
           <div>김영주입니다</div>
         </div>
         <p className="text-black text-2xl font-semibold ">
-          부족한 제 포트폴리오에
+          제 포트폴리오에
           <br /> 관심가져 주셔서 감사합니다
         </p>
         <div className="flex  ">
