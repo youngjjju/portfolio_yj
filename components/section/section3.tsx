@@ -68,7 +68,7 @@ export default function Section3() {
               </li>
               <li>WORDLE 게임의 기능을 구현한 개인 토이 프로젝트</li>
               <li>
-                <Link href="https://amang.vercel.app/">
+                <Link href="https://wordle-yj.vercel.app/">
                   https://wordle-yj.vercel.app/
                 </Link>
               </li>
