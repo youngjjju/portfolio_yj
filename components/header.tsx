@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 export const headerList: Record<string, string> = {
   자기소개: "section1",
-  학습성과: "section2",
+  약력: "section2",
   프로젝트: "section3",
   //학교생활: "section4",
 };

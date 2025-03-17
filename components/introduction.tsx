@@ -3,7 +3,7 @@ export default function Introduction() {
     <div className="w-[71%] flex">
       <div className="w-1/2 h-full   rounded-lg ">
         <section className="mb-4">
-          <h2 className="text-xl font-bold mb-2">📌 학력</h2>
+          <h2 className="text-xl font-bold mb-2">📌 소속</h2>
           <ul className="list-disc pl-5 space-y-1">
             <li>성균관대학교 전자전기공학부 3학년</li>
           </ul>
@@ -33,7 +33,7 @@ export default function Introduction() {
       <div className="w-1/2 h-full  rounded-lg ">
         {" "}
         <section className="mb-4">
-          <h2 className="text-xl font-bold mb-2">📌대내외활동</h2>
+          <h2 className="text-xl font-bold mb-2">📌 기타활동</h2>
           <ul className="list-disc pl-5 space-y-1">
             <li>교환학생 버디 프로그램 SG MAPLE </li>
             <li>융합연구학점제 장려상 수상</li>

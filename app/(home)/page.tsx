@@ -3,8 +3,10 @@ import Footer from "@/components/footer";
 import Section1 from "@/components/section/section1";
 import Section2 from "@/components/section/section2";
 import Section3 from "@/components/section/section3";
+
 //https://kr.pinterest.com/pin/678988081316322978/
 export default function Home() {
+
   return (
     <>
       <section

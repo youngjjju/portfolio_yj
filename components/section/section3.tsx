@@ -74,6 +74,21 @@ export default function Section3() {
               </li>
             </ul>
           </section>
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold mb-2">📌 생각해 본 프로젝트</h2>
+            <ul className="list-disc pl-5 space-y-1">
+              <li>
+                <strong>
+                  아직 구체적인 내용은 없어서, 같이 생각해보면 좋을 거
+                  같습니다ㅠㅠ
+                </strong>
+              </li>
+              <li>
+                저는 사용자 UI/UX가 있는 웹 활용 플랫폼이나, 간단한 서버 구축에
+                힘을 보탤 수 있습니다.
+              </li>
+            </ul>
+          </section>
         </div>
       </div>
       <div></div>

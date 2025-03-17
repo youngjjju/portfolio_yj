@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Section1() {
   return (
     <div className=" hidden overflow-hidden w-full relative  h-full lg:gap-16 xl:gap-32 lg:flex justify-center items-center">
-      <div className="relative  shadow-lg overflow-hidden w-[512px] h-[642px] rounded-2xl ">
+      <div className="relative  shadow-lg  overflow-hidden w-[512px] h-[642px] rounded-2xl ">
         <Image
           className="absolute bottom-12"
           src="/main.png"
@@ -43,7 +43,6 @@ export default function Section1() {
           고민이 많았습니다. 프로그래머가 되야겠다고
           <br /> 결정하기까지 제가 거쳐왔던 과정을 소개하도록 하겠습니다.
           <br /> 아직 많이 부족하지만, 노력하는 모습에 주목해주세요!
-
         </p>
       </div>
       <div className="hidden xl:w-[100px]" />
